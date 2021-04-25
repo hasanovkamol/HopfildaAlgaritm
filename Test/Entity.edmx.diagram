@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3aa8c7a65224402a80607fed55575228" Name="Diagram1">
+        <EntityTypeShape EntityType="DatabaseBuxModel.C__EFMigrationsHistory" Width="1.5" PointX="12" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseBuxModel.должностиs" Width="1.5" PointX="12.125" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseBuxModel.единицаИзмеренияs" Width="2" PointX="0.625" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseBuxModel.классификациятоваровs" Width="1.5" PointX="6.625" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseBuxModel.клиентыs" Width="1.5" PointX="7.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseBuxModel.приходs" Width="1.5" PointX="8.625" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseBuxModel.приходТоварыs" Width="1.5" PointX="6.875" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseBuxModel.производительs" Width="1.5" PointX="3" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseBuxModel.расходs" Width="1.5" PointX="0.75" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseBuxModel.расходТоварыs" Width="1.5" PointX="2.875" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseBuxModel.сотрудникиs" Width="1.5" PointX="10.25" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseBuxModel.тараиУпаковкаs" Width="1.5" PointX="8.375" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseBuxModel.товарыs" Width="1.5" PointX="4.875" PointY="8" IsExpanded="true" />
+        <AssociationConnector Association="DatabaseBuxModel.FK_сотрудникиs_должностиs_ДолжностиId" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseBuxModel.FK_товарыs_единицаИзмеренияs_ЕдиницаИзмеренияID" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseBuxModel.FK_товарыs_классификациятоваровs_КлассификациятоваровId" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseBuxModel.FK_приходs_сотрудникиs_СотрудникиID" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseBuxModel.FK_приходТоварыs_приходs_ПриходId" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseBuxModel.FK_приходТоварыs_товарыs_ТоварыId" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseBuxModel.FK_товарыs_производительs_ПроизводительId" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseBuxModel.FK_расходТоварыs_расходs_РасходId" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseBuxModel.FK_расходТоварыs_товарыs_ТоварыId" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseBuxModel.FK_товарыs_тараиУпаковкаs_ТараиУпаковкаId" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
